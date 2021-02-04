@@ -1,0 +1,85 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0  2020 ?        01:29:08 /usr/lib/systemd/systemd --system --deserialize 20
+root         2     0  0  2020 ?        00:00:04 [kthreadd]
+root         3     2  0  2020 ?        00:06:34 [ksoftirqd/0]
+root         5     2  0  2020 ?        00:00:00 [kworker/0:0H]
+root         7     2  0  2020 ?        00:00:00 [migration/0]
+root         8     2  0  2020 ?        00:00:00 [rcu_bh]
+root         9     2  0  2020 ?        00:55:12 [rcu_sched]
+root        10     2  0  2020 ?        00:00:00 [lru-add-drain]
+root        11     2  0  2020 ?        00:01:05 [watchdog/0]
+root        13     2  0  2020 ?        00:00:00 [kdevtmpfs]
+root        14     2  0  2020 ?        00:00:00 [netns]
+root        15     2  0  2020 ?        00:00:03 [khungtaskd]
+root        16     2  0  2020 ?        00:00:00 [writeback]
+root        17     2  0  2020 ?        00:00:00 [kintegrityd]
+root        18     2  0  2020 ?        00:00:00 [bioset]
+root        19     2  0  2020 ?        00:00:00 [kblockd]
+root        20     2  0  2020 ?        00:00:00 [md]
+root        21     2  0  2020 ?        00:00:00 [edac-poller]
+root        27     2  0  2020 ?        00:01:30 [kswapd0]
+root        28     2  0  2020 ?        00:00:00 [ksmd]
+root        29     2  0  2020 ?        00:00:24 [khugepaged]
+root        30     2  0  2020 ?        00:00:00 [crypto]
+root        38     2  0  2020 ?        00:00:00 [kthrotld]
+root        40     2  0  2020 ?        00:00:00 [kmpath_rdacd]
+root        41     2  0  2020 ?        00:00:00 [kaluad]
+root        42     2  0  2020 ?        00:00:00 [kpsmoused]
+root        43     2  0  2020 ?        00:00:00 [ipv6_addrconf]
+root        56     2  0  2020 ?        00:00:00 [deferwq]
+root        97     2  0  2020 ?        00:02:29 [kauditd]
+root       222     2  0  2020 ?        00:05:29 [kworker/0:1H]
+root       225     2  0  2020 ?        00:00:00 [ata_sff]
+root       226     2  0  2020 ?        00:00:00 [scsi_eh_0]
+root       227     2  0  2020 ?        00:00:00 [scsi_tmf_0]
+root       228     2  0  2020 ?        00:00:00 [scsi_eh_1]
+root       229     2  0  2020 ?        00:00:00 [scsi_tmf_1]
+root       238     2  0  2020 ?        00:00:00 [ttm_swap]
+root       252     2  0  2020 ?        00:09:19 [jbd2/vda1-8]
+root       253     2  0  2020 ?        00:00:00 [ext4-rsv-conver]
+root       327     1  0  2020 ?        02:35:57 /usr/lib/systemd/systemd-journald
+root       470     1  0  2020 ?        00:11:38 /usr/lib/systemd/systemd-logind
+libstor+   472     1  0  2020 ?        00:00:28 /usr/bin/lsmd -d
+dbus       474     1  0  2020 ?        00:31:03 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       476     1  0  2020 ?        00:00:00 /usr/sbin/acpid
+root       762     1  0  2020 ?        00:00:00 /sbin/dhclient -q -lf /var/lib/dhclient/dhclient--eth0.lease -pf /var/run/dhclient-eth0.pid -H VM_0_12_centos eth0
+root       997     1  0  2020 ttyS0    00:00:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+root       998     1  0  2020 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root      3834     2  0 14:45 ?        00:00:00 [kworker/0:2]
+root      4891     1  0 Jan29 ?        00:23:14 /usr/local/qcloud/YunJing/YDEyes/YDService
+root      4907  4891  0 Jan29 ?        00:13:50 /usr/local/qcloud/YunJing/YDEdr
+root      4944     1  0 Jan29 ?        00:00:22 /usr/local/qcloud/YunJing/YDLive/YDLive
+root      5741     1  0 Jan26 ?        00:00:43 /usr/sbin/sshd -D
+root      5986     1  0 Jan26 ?        00:04:36 /usr/sbin/rsyslogd -n
+root      6056     1  0 Jan26 ?        00:00:05 /usr/sbin/crond -n
+ntp       6105     1  0 Jan26 ?        00:00:01 /usr/sbin/ntpd -u ntp:ntp -g
+root      6168     1  0 Jan26 ?        00:00:00 /usr/sbin/lvmetad -f
+root      6331     1  0 Jan26 ?        00:00:00 /usr/sbin/atd -f
+root      7365     1  0  2020 ?        00:00:00 sh /root/.vscode-server/bin/91899dcef7b8110878ea59626991a18c8a6a1b3e/server.sh --host=127.0.0.1 --enable-remote-auto-shutdown --port=0
+root      7373  7365  0  2020 ?        00:01:14 /root/.vscode-server/bin/91899dcef7b8110878ea59626991a18c8a6a1b3e/node /root/.vscode-server/bin/91899dcef7b8110878ea59626991a18c8a6a1b3e/out/vs/server/main.js --host=127.0.0.1 --enable-remote-auto-shutdown --port=0
+root      7829     2  0 14:50 ?        00:00:00 [kworker/0:0]
+root      8534 24470  0 14:53 ?        00:00:00 sleep 180
+root      8665 24730  0 14:54 ?        00:00:00 sleep 180
+root      9804 26397  0 14:55 pts/1    00:00:00 ps -ef
+root     13126     2  0 Feb01 ?        00:00:01 [kworker/u2:1]
+root     13445     1  0  2020 ?        04:23:29 src/redis-server 127.0.0.1:28641
+root     13474     1  0  2020 ?        04:22:44 src/redis-server 127.0.0.1:28642
+polkitd  17113     1  0 Jan26 ?        00:00:16 /usr/lib/polkit-1/polkitd --no-debug
+root     17149     1  0 Jan26 ?        00:01:25 /usr/bin/python2 -Es /usr/sbin/tuned -l -P
+root     17769     1  0 Jan28 ?        00:00:04 /usr/local/qcloud/stargate/bin/sgagent -d
+root     17817     1  0  2020 ?        00:16:29 /sbin/auditd
+root     18119     1  0 Jan28 ?        00:00:08 barad_agent
+root     18124 18119  0 Jan28 ?        00:07:53 barad_agent
+root     18125 18119  0 Jan28 ?        00:34:30 barad_agent
+root     19426     2  0 07:45 ?        00:00:00 [kworker/u2:0]
+root     24464  5741  0 11:08 ?        00:00:00 sshd: root@notty
+root     24470 24464  0 11:08 ?        00:00:00 bash
+root     24519 24470  0 11:08 ?        00:00:00 sh /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/server.sh --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /root/.vscode-server/.ea3859d4ba2f3e577a159bc91e3074c5d85c0523.token
+root     24527 24519  0 11:08 ?        00:00:21 /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/node /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /root/.vscode-server/.ea3859d4ba2f3e577a159bc91e3074c5d85c0523.token
+root     24606 24527  0 11:08 ?        00:00:58 /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/node /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/bootstrap-fork --type=extensionHost --uriTransformerPath=/root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/out/vs/server/uriTransformer.js
+root     24620     1  0 Jan26 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+root     24726  5741  0 11:09 ?        00:00:02 sshd: root@notty
+root     24730 24726  0 11:09 ?        00:00:00 bash
+root     26382 24606  0 11:14 ?        00:00:00 /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/node /root/.vscode-server/bin/ea3859d4ba2f3e577a159bc91e3074c5d85c0523/extensions/json-language-features/server/dist/node/jsonServerMain --node-ipc --clientProcessId=24606
+root     26397 24527  0 11:14 pts/1    00:00:28 /bin/zsh
+root     32425     2  0 14:40 ?        00:00:00 [kworker/0:1]
