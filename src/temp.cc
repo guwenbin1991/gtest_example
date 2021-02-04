@@ -10,5 +10,5 @@ int minus(int a, int b)
 
 int main()
 {
-    printf("greate!");
+    printf("great wenbin master!");
 }
